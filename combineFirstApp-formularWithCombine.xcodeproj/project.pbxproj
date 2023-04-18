@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13AA9DAA29EEBCFA00C5B569 /* combineFirstApp_formularWithCombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA9DA929EEBCFA00C5B569 /* combineFirstApp_formularWithCombineApp.swift */; };
+		13AA9DAC29EEBCFA00C5B569 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA9DAB29EEBCFA00C5B569 /* ContentView.swift */; };
+		13AA9DAE29EEBD0A00C5B569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AA9DAD29EEBD0A00C5B569 /* Assets.xcassets */; };
+		13AA9DB129EEBD0A00C5B569 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AA9DB029EEBD0A00C5B569 /* Preview Assets.xcassets */; };
+		13AA9DBB29EEBD0B00C5B569 /* combineFirstApp_formularWithCombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA9DBA29EEBD0B00C5B569 /* combineFirstApp_formularWithCombineTests.swift */; };
+		13AA9DC529EEBD0B00C5B569 /* combineFirstApp_formularWithCombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA9DC429EEBD0B00C5B569 /* combineFirstApp_formularWithCombineUITests.swift */; };
+		13AA9DC729EEBD0B00C5B569 /* combineFirstApp_formularWithCombineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA9DC629EEBD0B00C5B569 /* combineFirstApp_formularWithCombineUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13AA9DB729EEBD0B00C5B569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13AA9D9E29EEBCF900C5B569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13AA9DA529EEBCF900C5B569;
+			remoteInfo = "combineFirstApp-formularWithCombine";
+		};
+		13AA9DC129EEBD0B00C5B569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13AA9D9E29EEBCF900C5B569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13AA9DA529EEBCF900C5B569;
+			remoteInfo = "combineFirstApp-formularWithCombine";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13AA9DA629EEBCF900C5B569 /* combineFirstApp-formularWithCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "combineFirstApp-formularWithCombine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13AA9DA929EEBCFA00C5B569 /* combineFirstApp_formularWithCombineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combineFirstApp_formularWithCombineApp.swift; sourceTree = "<group>"; };
+		13AA9DAB29EEBCFA00C5B569 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13AA9DAD29EEBD0A00C5B569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13AA9DB029EEBD0A00C5B569 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13AA9DB629EEBD0B00C5B569 /* combineFirstApp-formularWithCombineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "combineFirstApp-formularWithCombineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13AA9DBA29EEBD0B00C5B569 /* combineFirstApp_formularWithCombineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combineFirstApp_formularWithCombineTests.swift; sourceTree = "<group>"; };
+		13AA9DC029EEBD0B00C5B569 /* combineFirstApp-formularWithCombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "combineFirstApp-formularWithCombineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13AA9DC429EEBD0B00C5B569 /* combineFirstApp_formularWithCombineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combineFirstApp_formularWithCombineUITests.swift; sourceTree = "<group>"; };
+		13AA9DC629EEBD0B00C5B569 /* combineFirstApp_formularWithCombineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combineFirstApp_formularWithCombineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13AA9DA329EEBCF900C5B569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13AA9DB329EEBD0B00C5B569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13AA9DBD29EEBD0B00C5B569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13AA9D9D29EEBCF900C5B569 = {
+			isa = PBXGroup;
+			children = (
+				13AA9DA829EEBCF900C5B569 /* combineFirstApp-formularWithCombine */,
+				13AA9DB929EEBD0B00C5B569 /* combineFirstApp-formularWithCombineTests */,
+				13AA9DC329EEBD0B00C5B569 /* combineFirstApp-formularWithCombineUITests */,
+				13AA9DA729EEBCF900C5B569 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13AA9DA729EEBCF900C5B569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13AA9DA629EEBCF900C5B569 /* combineFirstApp-formularWithCombine.app */,
+				13AA9DB629EEBD0B00C5B569 /* combineFirstApp-formularWithCombineTests.xctest */,
+				13AA9DC029EEBD0B00C5B569 /* combineFirstApp-formularWithCombineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13AA9DA829EEBCF900C5B569 /* combineFirstApp-formularWithCombine */ = {
+			isa = PBXGroup;
+			children = (
+				13AA9DA929EEBCFA00C5B569 /* combineFirstApp_formularWithCombineApp.swift */,
+				13AA9DAB29EEBCFA00C5B569 /* ContentView.swift */,
+				13AA9DAD29EEBD0A00C5B569 /* Assets.xcassets */,
+				13AA9DAF29EEBD0A00C5B569 /* Preview Content */,
+			);
+			path = "combineFirstApp-formularWithCombine";
+			sourceTree = "<group>";
+		};
+		13AA9DAF29EEBD0A00C5B569 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				13AA9DB029EEBD0A00C5B569 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13AA9DB929EEBD0B00C5B569 /* combineFirstApp-formularWithCombineTests */ = {
+			isa = PBXGroup;
+			children = (
+				13AA9DBA29EEBD0B00C5B569 /* combineFirstApp_formularWithCombineTests.swift */,
+			);
+			path = "combineFirstApp-formularWithCombineTests";
+			sourceTree = "<group>";
+		};
+		13AA9DC329EEBD0B00C5B569 /* combineFirstApp-formularWithCombineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13AA9DC429EEBD0B00C5B569 /* combineFirstApp_formularWithCombineUITests.swift */,
+				13AA9DC629EEBD0B00C5B569 /* combineFirstApp_formularWithCombineUITestsLaunchTests.swift */,
+			);
+			path = "combineFirstApp-formularWithCombineUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13AA9DA529EEBCF900C5B569 /* combineFirstApp-formularWithCombine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13AA9DCA29EEBD0B00C5B569 /* Build configuration list for PBXNativeTarget "combineFirstApp-formularWithCombine" */;
+			buildPhases = (
+				13AA9DA229EEBCF900C5B569 /* Sources */,
+				13AA9DA329EEBCF900C5B569 /* Frameworks */,
+				13AA9DA429EEBCF900C5B569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "combineFirstApp-formularWithCombine";
+			productName = "combineFirstApp-formularWithCombine";
+			productReference = 13AA9DA629EEBCF900C5B569 /* combineFirstApp-formularWithCombine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13AA9DB529EEBD0B00C5B569 /* combineFirstApp-formularWithCombineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13AA9DCD29EEBD0B00C5B569 /* Build configuration list for PBXNativeTarget "combineFirstApp-formularWithCombineTests" */;
+			buildPhases = (
+				13AA9DB229EEBD0B00C5B569 /* Sources */,
+				13AA9DB329EEBD0B00C5B569 /* Frameworks */,
+				13AA9DB429EEBD0B00C5B569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13AA9DB829EEBD0B00C5B569 /* PBXTargetDependency */,
+			);
+			name = "combineFirstApp-formularWithCombineTests";
+			productName = "combineFirstApp-formularWithCombineTests";
+			productReference = 13AA9DB629EEBD0B00C5B569 /* combineFirstApp-formularWithCombineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13AA9DBF29EEBD0B00C5B569 /* combineFirstApp-formularWithCombineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13AA9DD029EEBD0B00C5B569 /* Build configuration list for PBXNativeTarget "combineFirstApp-formularWithCombineUITests" */;
+			buildPhases = (
+				13AA9DBC29EEBD0B00C5B569 /* Sources */,
+				13AA9DBD29EEBD0B00C5B569 /* Frameworks */,
+				13AA9DBE29EEBD0B00C5B569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13AA9DC229EEBD0B00C5B569 /* PBXTargetDependency */,
+			);
+			name = "combineFirstApp-formularWithCombineUITests";
+			productName = "combineFirstApp-formularWithCombineUITests";
+			productReference = 13AA9DC029EEBD0B00C5B569 /* combineFirstApp-formularWithCombineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13AA9D9E29EEBCF900C5B569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					13AA9DA529EEBCF900C5B569 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					13AA9DB529EEBD0B00C5B569 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 13AA9DA529EEBCF900C5B569;
+					};
+					13AA9DBF29EEBD0B00C5B569 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 13AA9DA529EEBCF900C5B569;
+					};
+				};
+			};
+			buildConfigurationList = 13AA9DA129EEBCF900C5B569 /* Build configuration list for PBXProject "combineFirstApp-formularWithCombine" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13AA9D9D29EEBCF900C5B569;
+			productRefGroup = 13AA9DA729EEBCF900C5B569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13AA9DA529EEBCF900C5B569 /* combineFirstApp-formularWithCombine */,
+				13AA9DB529EEBD0B00C5B569 /* combineFirstApp-formularWithCombineTests */,
+				13AA9DBF29EEBD0B00C5B569 /* combineFirstApp-formularWithCombineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13AA9DA429EEBCF900C5B569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AA9DB129EEBD0A00C5B569 /* Preview Assets.xcassets in Resources */,
+				13AA9DAE29EEBD0A00C5B569 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13AA9DB429EEBD0B00C5B569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13AA9DBE29EEBD0B00C5B569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13AA9DA229EEBCF900C5B569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AA9DAC29EEBCFA00C5B569 /* ContentView.swift in Sources */,
+				13AA9DAA29EEBCFA00C5B569 /* combineFirstApp_formularWithCombineApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13AA9DB229EEBD0B00C5B569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AA9DBB29EEBD0B00C5B569 /* combineFirstApp_formularWithCombineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13AA9DBC29EEBD0B00C5B569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AA9DC529EEBD0B00C5B569 /* combineFirstApp_formularWithCombineUITests.swift in Sources */,
+				13AA9DC729EEBD0B00C5B569 /* combineFirstApp_formularWithCombineUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13AA9DB829EEBD0B00C5B569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13AA9DA529EEBCF900C5B569 /* combineFirstApp-formularWithCombine */;
+			targetProxy = 13AA9DB729EEBD0B00C5B569 /* PBXContainerItemProxy */;
+		};
+		13AA9DC229EEBD0B00C5B569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13AA9DA529EEBCF900C5B569 /* combineFirstApp-formularWithCombine */;
+			targetProxy = 13AA9DC129EEBD0B00C5B569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13AA9DC829EEBD0B00C5B569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13AA9DC929EEBD0B00C5B569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13AA9DCB29EEBD0B00C5B569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"combineFirstApp-formularWithCombine/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LachkarZakaria.combineFirstApp-formularWithCombine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13AA9DCC29EEBD0B00C5B569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"combineFirstApp-formularWithCombine/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LachkarZakaria.combineFirstApp-formularWithCombine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13AA9DCE29EEBD0B00C5B569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LachkarZakaria.combineFirstApp-formularWithCombineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/combineFirstApp-formularWithCombine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/combineFirstApp-formularWithCombine";
+			};
+			name = Debug;
+		};
+		13AA9DCF29EEBD0B00C5B569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LachkarZakaria.combineFirstApp-formularWithCombineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/combineFirstApp-formularWithCombine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/combineFirstApp-formularWithCombine";
+			};
+			name = Release;
+		};
+		13AA9DD129EEBD0B00C5B569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LachkarZakaria.combineFirstApp-formularWithCombineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "combineFirstApp-formularWithCombine";
+			};
+			name = Debug;
+		};
+		13AA9DD229EEBD0B00C5B569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LachkarZakaria.combineFirstApp-formularWithCombineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "combineFirstApp-formularWithCombine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13AA9DA129EEBCF900C5B569 /* Build configuration list for PBXProject "combineFirstApp-formularWithCombine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AA9DC829EEBD0B00C5B569 /* Debug */,
+				13AA9DC929EEBD0B00C5B569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13AA9DCA29EEBD0B00C5B569 /* Build configuration list for PBXNativeTarget "combineFirstApp-formularWithCombine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AA9DCB29EEBD0B00C5B569 /* Debug */,
+				13AA9DCC29EEBD0B00C5B569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13AA9DCD29EEBD0B00C5B569 /* Build configuration list for PBXNativeTarget "combineFirstApp-formularWithCombineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AA9DCE29EEBD0B00C5B569 /* Debug */,
+				13AA9DCF29EEBD0B00C5B569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13AA9DD029EEBD0B00C5B569 /* Build configuration list for PBXNativeTarget "combineFirstApp-formularWithCombineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AA9DD129EEBD0B00C5B569 /* Debug */,
+				13AA9DD229EEBD0B00C5B569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13AA9D9E29EEBCF900C5B569 /* Project object */;
+}
